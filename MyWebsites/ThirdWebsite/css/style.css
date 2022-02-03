@@ -1,0 +1,333 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    margin-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.075);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+    padding: 10px;
+}
+
+
+/* Header - WebSite */
+
+.Conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-navigation ul {
+    display: flex;
+}
+
+.header-navigation ul li {
+    padding: 10px;
+    position: relative;
+    right: 200px;
+}
+
+.header-navigation ul li a {
+    color: black;
+}
+
+.input .span-input2 {
+    background: rgb(45, 107, 223);
+    color: white;
+    padding: 6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+input {
+    width: 20rem;
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    background: rgb(221, 221, 221);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.input .span-input {
+    padding: 7px 50px;
+    border: 1px solid rgb(76, 161, 230);
+    border-radius: 5px;
+    color: rgb(76, 161, 230);
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+
+/* div - logo */
+
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-div {
+    margin-left: 20rem;
+}
+
+.content-div h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.content-div p {
+    font-size: 20px
+}
+
+
+/* main */
+
+.conteiner-main {
+    background: rgb(245, 245, 245);
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+}
+
+.generalHeaderContent p {
+    font-size: 35px;
+    text-align: center;
+}
+
+.conteiner-main-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.main-box {
+    width: 20.33%;
+}
+
+.main-box h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main-box p {
+    line-height: 30px;
+}
+
+.main-box {
+    text-align: center;
+}
+
+
+/* getYourSideConteiner */
+
+.getYourSideConteiner {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.getYourSideConteiner h3 {
+    margin: 2rem 1rem;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.getYourSideConteiner p {
+    width: 45rem;
+    position: relative;
+    left: 580px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+hr {
+    width: 70rem;
+    margin-bottom: 20px;
+    position: relative;
+    left: 350px;
+    bottom: 3rem;
+    background: rgba(175, 16, 16, 0.753);
+}
+
+
+/* main */
+
+main {
+    margin-bottom: 100px;
+}
+
+.articleConteiner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content-main h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 50px
+}
+
+.articleConteiner article {
+    width: 25%;
+    text-align: center;
+}
+
+.articleConteiner article p {
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+/* content-main1 */
+
+.content-main1 {
+    margin-top: 150px;
+}
+
+.content-main1 h3 {
+    text-align: center;
+}
+
+.conTeiner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conTeiner article {
+    width: 20%;
+    margin-top: 100px;
+}
+
+.content-main1 h3 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.conTeiner article p {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+
+/* conTeinerSecond */
+
+.conTeinerSecond {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conTeinerSecond article {
+    width: 20%;
+    margin-top: 100px;
+}
+
+.conTeinerSecond article p {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.logo-Conteiner {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first-art h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.input-section #text {
+    padding: 20px 200px;
+}
+
+.span-input2 {
+    background: rgb(241, 241, 241);
+    color: black;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.span {
+    color: white;
+    background: blue;
+    padding: 17px;
+    position: relative;
+    right: 3px;
+    top: 1px;
+}
+
+.logo-Conteiner span {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+
+/* footer */
+
+footer {
+    background: rgb(247, 241, 241);
+}
+
+.footerGeneral {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.general-Article h3 {
+    color: rgb(124, 119, 119);
+    margin-top: 20px;
+}
+
+.general-Article a {
+    text-decoration: none;
+    color: gray;
+}
+
+.general-Article ul li {
+    list-style: none;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.general-Article ul {
+    margin: 10px 0;
+}
+
+.navDownFooter ul {
+    display: flex;
+    justify-content: right;
+}
+
+.navDownFooter ul li {
+    list-style: none;
+    margin: 50px 15px;
+}
+
+.navDownFooter a {
+    text-decoration: none;
+    color: gray;
+}

@@ -1,0 +1,976 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Zen Antique', serif;
+}
+
+.BigConteiner {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* Header */
+
+.bigConteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-header ul {
+    display: flex;
+    margin-right: 460px;
+}
+
+.navigationSecond-header ul {
+    display: flex;
+}
+
+.navigationSecond-header ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navigation-header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.navigationSecond-header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.navigationSecond-header a:hover {
+    color: orange;
+    transition: 0.5s ease-in-out;
+    border-bottom: 1px solid black;
+}
+
+.navigation-header a:hover {
+    color: orange;
+    transition: 0.5s ease-in-out;
+    border-bottom: 1px solid black;
+}
+
+.navigation-header ul li {
+    list-style: none;
+    margin: 0 18px;
+}
+
+.logo-header img {
+    width: 190px;
+    height: 50;
+}
+
+
+/* divConteiner */
+
+.divConteiner {
+    background-image: url(../pictures/banner.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.divSection {
+    margin: 140px 100px;
+    display: inline-block;
+}
+
+#button-first {
+    background: rgb(255, 197, 6);
+    padding: 5px 20px;
+    margin: 20px 0px;
+}
+
+.divSection h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.divConteiner p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.divConteiner span {
+    background: white;
+    margin-top: 30px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.svg-inline--fa {
+    margin-left: 5px;
+}
+
+
+/* divConteinerSecond */
+
+.divSection2 ul {
+    display: flex;
+    justify-content: center;
+}
+
+.divSection2 ul li {
+    list-style: none;
+    margin: 50px 50px;
+}
+
+.divSection2 ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fa-book-open,
+.fa-windows {
+    font-size: 50px;
+    position: relative;
+    left: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* main */
+
+.conteinerMain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstSection,
+.SecondSection,
+.ThirdSection,
+.FourthSection {
+    width: 20%;
+}
+
+.firstSection img,
+.SecondSection img,
+.ThirdSection img,
+.FourthSection img {
+    width: 100%;
+}
+
+.firstSection h3,
+.SecondSection h3,
+.ThirdSection h3,
+.FourthSection h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.firstSection p,
+.SecondSection p,
+.ThirdSection p,
+.FourthSection p {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.firstSection span,
+.SecondSection span,
+.ThirdSection span,
+.FourthSection span {
+    color: rgb(28, 128, 195);
+}
+
+.conteinerMain a {
+    text-decoration: none;
+}
+
+
+/* thirdConteier */
+
+.divConteinerTwo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.divConteinerTwo {
+    background-image: url(../pictures/banner-second.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.divSection {
+    display: inline-block;
+    margin: 150px 90px;
+}
+
+.divConteinerTwo .divSection a span {
+    text-decoration: none;
+    background: #000;
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.divConteinerTwo p {
+    font-size: 20px;
+}
+
+
+/* footer */
+
+footer {
+    background: rgb(247, 241, 241);
+}
+
+.footerGeneral {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.general-Article h3 {
+    color: rgb(124, 119, 119);
+    margin-top: 20px;
+}
+
+.general-Article a {
+    text-decoration: none;
+    color: gray;
+}
+
+.general-Article ul li {
+    list-style: none;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.general-Article ul {
+    margin: 10px 0;
+}
+
+.navDownFooter ul {
+    display: flex;
+    justify-content: right;
+}
+
+.navDownFooter ul li {
+    list-style: none;
+    margin: 50px 15px;
+}
+
+.navDownFooter a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+/* Second document html - Microsoft 365.html */
+
+.newAboutMicrosoft {
+    text-align: center;
+    background: rgba(36, 38, 179, 0.726);
+    padding: 20px;
+    color: white;
+}
+
+.newAboutMicrosoft span:hover {
+    cursor: pointer;
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(238, 201, 201);
+    transition: 0.5s ease-in-out;
+    color: orange;
+}
+
+.Microsoft-banner-conteiner {
+    background-image: url(../pictures/Hero_M365_HomePage_1920x800_VP5-1920x720.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.div-header {
+    position: absolute;
+    left: 120vh;
+    top: 20vh;
+}
+
+.div-header h1 {
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.div-header h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.div-header p {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.contentAboutSpan {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contentAboutSpan a span {
+    background: rgb(99, 91, 207);
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.spanContent2 {
+    margin-top: 10px;
+}
+
+
+/* heading-tex */
+
+.heading-text {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*div-header-section */
+
+.header-two {
+    margin-bottom: 100px;
+}
+
+.header-section-two {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-section-two h3 {
+    font-size: 30px;
+}
+
+.header-section-two p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+/* microsoftMain-section */
+
+.ConteinerMain {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main1 {
+    width: 50%;
+}
+
+.main2 {
+    width: 40%;
+}
+
+.FirstSection,
+.thirdSection {
+    margin-bottom: 30px;
+}
+
+.FirstSection,
+.secondSection,
+.thirdSection,
+.fourthSection {
+    text-align: left;
+    width: 60%;
+}
+
+.FirstSection,
+.secondSection {
+    text-align: right;
+}
+
+.FirstSection img,
+.secondSection img,
+.thirdSection img,
+.fourthSection img {
+    width: 500px;
+}
+
+.FirstSection h3,
+.secondSection h3,
+.thirdSection h3,
+.fourthSection h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.FirstSection p,
+.secondSection p,
+.thirdSection p,
+.fourthSection p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/*header-thri*/
+
+.header-section-thri h3 {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 30px;
+    margin-bottom: 120px;
+}
+
+
+/*aside*/
+
+.conteinerAside {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteinerAside h2 {
+    margin-bottom: 20px;
+}
+
+.conteinerAside p {
+    line-height: 25px;
+}
+
+
+/* banner-3 */
+
+.Microsoft-banner-conteiner2 {
+    background-image: url(../pictures/CollaborateRealTime-banner.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    margin: 100px 0;
+}
+
+
+/* header-3 */
+
+.header-section-3 {
+    text-align: center;
+}
+
+.header-section-3 h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.header-section-3 p {
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+
+
+/* lastoContentAricle */
+
+.lastContent {
+    background-image: url(../pictures/M365-Footer-.jpg);
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.lastoContentAricle {
+    position: relative;
+}
+
+.articleLast ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.articleLast ul li {
+    list-style-type: none;
+}
+
+.articleLast ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    background: rgb(15, 132, 209);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.lastoContentAricle {
+    position: relative;
+    top: 40vh;
+}
+
+.lastoContentAricle h2 {
+    text-align: right;
+    position: relative;
+    bottom: 50px;
+    right: 390px;
+}
+
+
+/* third document start */
+
+.conteiner-banner {
+    background-image: url(../pictures/Microsoft-office-pic-1.webp);
+    width: 100%;
+    height: 51vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.sectionBanner-WithHeading {
+    margin: 150px 150px;
+    display: inline-block;
+}
+
+.sectionBanner-WithHeading h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.sectionBanner-WithHeading p {
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+/*main third- document */
+
+.mainSections {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mainSections h2 {
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.mainSections a {
+    text-decoration: none;
+    background: rgb(51, 169, 216);
+    color: white;
+    padding: 20px 50px;
+}
+
+.mainSections a:hover {
+    color: white;
+    background: blue;
+}
+
+
+/* aside third document */
+
+.conteinerMainAside {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    width: 100%;
+}
+
+
+/* four document - teams*/
+
+.conteiner-Teams-Banner {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(248, 245, 245);
+    height: 51.5vh;
+}
+
+.heading-teams-banner {
+    width: 50%;
+}
+
+.picture img {
+    width: 80%;
+    position: relative;
+    left: 140px;
+}
+
+.content-team-reponsive {
+    margin: 150px 150px;
+    width: 40rem;
+}
+
+.content-team-reponsive h1 {
+    margin-bottom: 30px;
+}
+
+.content-team-reponsive p {
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.content-team-reponsive span {
+    padding: 8px 20px;
+    background: white;
+    color: rgb(9, 9, 223);
+    border: 2px solid rgb(60, 118, 226);
+    font-weight: 400;
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+}
+
+.content-team-reponsive span:hover {
+    background: white;
+    color: black;
+    background: rgb(209, 209, 231);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.content-team-reponsive button {
+    background: rgba(36, 38, 179, 0.726);
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    position: relative;
+    right: 10px;
+    font-size: 16px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.dropbtn {
+    background-color: #474e4b;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 100%;
+    position: relative;
+    right: 10px;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #2e352e;
+}
+
+#myVideo {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgb(231, 223, 223);
+    color: black;
+    cursor: pointer;
+    border-radius: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 140vh;
+}
+
+#myBtn:hover {
+    background: rgb(184, 98, 98);
+    color: black;
+}
+
+.content-main-teams {
+    position: relative;
+    top: 50vh;
+    left: 190px;
+    width: 850px;
+}
+
+.content-main-teams h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.content-main-teams p {
+    font-size: 20px;
+    line-height: 70px;
+}
+
+.content-main-teams span {
+    font-weight: 600;
+}
+
+#Span {
+    background: rgb(107, 107, 226);
+    color: white;
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.sectionCointeiner-Teams {
+    display: flex;
+}
+
+.responsiveSection {
+    margin: 300px 0px;
+    position: relative;
+    right: 500px;
+}
+
+.responsiveSection h1 {
+    font-size: 30px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.responsiveSection p {
+    line-height: 50px;
+    width: 50rem;
+}
+
+.main-teams-Conteiner2 {
+    position: relative;
+    bottom: 40rem;
+    padding-left: 130vh;
+    width: 200vh;
+}
+
+.conteiner-aside-teams {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Teams-img img {
+    width: 800px;
+}
+
+.section-teams {
+    margin: 300px 200px;
+    background: rgb(255, 251, 251);
+    padding: 50px;
+    border-left: 2px solid grey;
+}
+
+.section-teams h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.section-teams h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section-teams p {
+    font-size: 18px;
+}
+
+
+/* Document - five - Suppoert */
+
+.support-logo-first {
+    background-image: url(../pictures/microsfot-support.jpg);
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(92, 87, 87);
+}
+
+.conteiner-width-baner {
+    text-align: center;
+}
+
+.content-support-document {
+    position: relative;
+    top: 100px;
+    color: white;
+}
+
+.content-support-document h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.content-support-document p {
+    font-size: 28px;
+}
+
+.content-support-document a span {
+    position: relative;
+    left: 720px;
+    bottom: 50px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+#text-support {
+    width: 600px;
+    position: relative;
+    right: 50px;
+    top: 40px;
+    padding: 20px 20px;
+    font-size: 16px;
+}
+
+.fasss {
+    position: relative;
+    top: 40px;
+    right: 100px;
+    color: black;
+}
+
+.sup-content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(250, 250, 250);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.BigConteiner1 {
+    width: 100%;
+    margin: auto;
+}
+
+.content-sup span {
+    color: rgb(70, 149, 223);
+}
+
+.content-sup {
+    width: 800px;
+    line-height: 30px;
+}
+
+.content-sup p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-sup a {
+    text-decoration: none;
+}
+
+.main-supp-conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 500px;
+    width: 110rem;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.main-supp-conteiner1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    width: 50%;
+    width: 110rem;
+    margin: auto;
+}
+
+.first-main-sec,
+.first-main-two {
+    margin-left: 50px;
+}
+
+.first-main-sec h1,
+.first-main-two h1,
+.first-main-sec2 h1 {
+    margin-bottom: 20px;
+}
+
+.first-main-sec p,
+.first-main-two p,
+.first-main-sec2 p {
+    margin-bottom: 20px;
+}
+
+.first-main-sec2 {
+    width: 49rem;
+    margin-left: 50px;
+}
+
+.first-main-sec a,
+.first-main-two a,
+.first-main-sec2 a {
+    text-decoration: none;
+}
+
+.first-main-sec span,
+.first-main-two span,
+.first-main-sec2 span {
+    color: rgb(70, 149, 223);
+}

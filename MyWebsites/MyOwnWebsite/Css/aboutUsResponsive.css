@@ -1,0 +1,452 @@
+    @media (max-width: 800px) {
+        .hero {
+            height: 100vh;
+            flex-direction: column;
+        }
+        .aboutUs-header-container {
+            flex-direction: column;
+        }
+        .header-logo img {
+            width: 300px;
+        }
+        .aboutUs-navMenu-Header ul {
+            flex-direction: column;
+        }
+        .toggle-button {
+            display: block;
+        }
+        .aboutUs-navMenu-Header {
+            display: none;
+            margin-bottom: 1rem;
+        }
+        .aboutUs-navMenu-Header.active {
+            display: block;
+            width: 100%;
+        }
+        .aboutUs-navMenu-Header ul li {
+            margin: 0px 0px;
+            margin-bottom: 0rem;
+            padding: 5px;
+        }
+        .aboutUs-navMenu-Header ul li a {
+            color: white;
+        }
+        .btn-primary {
+            position: relative;
+            bottom: 2rem;
+            margin-left: 3rem;
+        }
+        .dropdown-content a {
+            width: 100%;
+            font-size: 15px;
+        }
+        /* dropdown*/
+        .dropdown {
+            margin-top: 0px;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            color: rgb(255, 254, 254);
+            min-width: 250px;
+            box-shadow: 0px 8px 16px 0px rgb(218, 112, 12);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: rgb(255, 255, 255);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .container2-header {
+            flex-direction: column;
+        }
+        .aboutUs-logo-Header img {
+            display: none;
+        }
+        .content-header-text p {
+            margin-top: 170px;
+            text-align: center;
+            margin-left: 0rem;
+            margin-left: 5rem;
+            font-size: 16px;
+            line-height: 2;
+        }
+        .content-header-text h3 {
+            top: 160px;
+            font-size: 25px;
+            text-align: center;
+            margin-left: 0rem;
+            margin-top: 100px;
+            left: 10rem;
+        }
+        .content-header-text {
+            position: relative;
+            bottom: 180px;
+            top: 50px;
+            margin-left: 0rem;
+        }
+        /* main / main-container-aboutUs*/
+        #first-main {
+            flex-direction: column;
+        }
+        .main-logo-aboutUs img {
+            width: 100%;
+            margin-bottom: 200px;
+        }
+        .main-content-aboutUs {
+            width: 90%;
+            margin-top: 100px;
+            margin-left: 0rem;
+            font-size: 20px;
+            text-align: center;
+        }
+        .main-content-2-aboutUs {
+            width: 90%;
+            margin-left: 0rem;
+            font-size: 20px;
+            text-align: center;
+            flex-direction: column;
+        }
+        .main-logo2-aboutUs img {
+            margin-bottom: 100px;
+            width: 80%;
+            margin-left: 3rem;
+        }
+        .main-content-aboutUs p {
+            font-size: 16px;
+        }
+        .main-content-aboutUs h3 {
+            font-size: 25px;
+        }
+        .main-content-2-aboutUs p {
+            font-size: 16px;
+        }
+        /* footer */
+        .footer-container {
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer-logo img {
+            width: 100%;
+        }
+        .footer-container2 {
+            align-items: center;
+            justify-content: center;
+        }
+        .footer-container2 article {
+            padding: 20px;
+            position: relative;
+            bottom: 40px;
+            left: 0px;
+            text-align: center;
+        }
+        .category {
+            margin-bottom: 100px;
+        }
+        .rules {
+            margin-bottom: 100px;
+        }
+    }
+    
+    @media (max-width: 1024px) {
+        .hero {
+            height: 100vh;
+            flex-direction: column;
+        }
+        .aboutUs-header-container {
+            flex-direction: column;
+        }
+        .header-logo img {
+            width: 300px;
+        }
+        .aboutUs-navMenu-Header ul {
+            flex-direction: column;
+        }
+        .toggle-button {
+            display: block;
+        }
+        .aboutUs-navMenu-Header {
+            display: none;
+            margin-bottom: 1rem;
+        }
+        .aboutUs-navMenu-Header.active {
+            display: block;
+            width: 100%;
+        }
+        .aboutUs-navMenu-Header ul li {
+            margin: 0px 0px;
+            margin-bottom: 0rem;
+            padding: 5px;
+        }
+        .aboutUs-navMenu-Header ul li a {
+            color: white;
+        }
+        .btn-primary {
+            position: relative;
+            bottom: 2rem;
+            margin-left: 3rem;
+        }
+        .dropdown-content a {
+            width: 100%;
+            font-size: 15px;
+        }
+        /* dropdown*/
+        .dropdown {
+            margin-top: 0px;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            color: rgb(255, 254, 254);
+            min-width: 250px;
+            box-shadow: 0px 8px 16px 0px rgb(218, 112, 12);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: rgb(255, 255, 255);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .container2-header {
+            flex-direction: column;
+        }
+        .aboutUs-logo-Header img {
+            display: none;
+        }
+        .content-header-text p {
+            margin-top: 170px;
+            text-align: center;
+            margin-left: 0rem;
+            margin-left: 5rem;
+            font-size: 16px;
+            line-height: 2;
+        }
+        .content-header-text h3 {
+            top: 160px;
+            font-size: 25px;
+            text-align: center;
+            margin-left: 0rem;
+            margin-top: 100px;
+            left: 10rem;
+        }
+        .content-header-text {
+            position: relative;
+            bottom: 180px;
+            top: 50px;
+            margin-left: 0rem;
+        }
+        /* main / main-container-aboutUs*/
+        #first-main {
+            flex-direction: column;
+        }
+        .main-logo-aboutUs img {
+            width: 100%;
+            margin-bottom: 200px;
+        }
+        .main-content-aboutUs {
+            width: 90%;
+            margin-top: 100px;
+            margin-left: 0rem;
+            font-size: 20px;
+            text-align: center;
+        }
+        .main-content-2-aboutUs {
+            width: 90%;
+            margin-left: 0rem;
+            font-size: 20px;
+            text-align: center;
+            flex-direction: column;
+        }
+        .main-logo2-aboutUs img {
+            margin-bottom: 100px;
+            width: 80%;
+            margin-left: 3rem;
+        }
+        .main-content-aboutUs p {
+            font-size: 16px;
+        }
+        .main-content-aboutUs h3 {
+            font-size: 25px;
+        }
+        .main-content-2-aboutUs p {
+            font-size: 16px;
+        }
+        /* footer */
+        .footer-container {
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer-logo img {
+            width: 100%;
+        }
+        .footer-container2 {
+            align-items: center;
+            justify-content: center;
+        }
+        .footer-container2 article {
+            padding: 20px;
+            position: relative;
+            bottom: 40px;
+            left: 0px;
+            text-align: center;
+        }
+        .category {
+            margin-bottom: 100px;
+        }
+        .rules {
+            margin-bottom: 100px;
+        }
+    }
+    
+    @media (max-width: 1440px) {
+        .hero {
+            height: 100vh;
+            flex-direction: column;
+        }
+        .aboutUs-header-container {
+            flex-direction: column;
+        }
+        .header-logo img {
+            width: 300px;
+        }
+        .aboutUs-navMenu-Header ul {
+            flex-direction: column;
+        }
+        .toggle-button {
+            display: block;
+        }
+        .aboutUs-navMenu-Header {
+            display: none;
+            margin-bottom: 1rem;
+        }
+        .aboutUs-navMenu-Header.active {
+            display: block;
+            width: 100%;
+        }
+        .aboutUs-navMenu-Header ul li {
+            margin: 0px 0px;
+            margin-bottom: 0rem;
+            padding: 5px;
+        }
+        .aboutUs-navMenu-Header ul li a {
+            color: white;
+        }
+        .btn-primary {
+            position: relative;
+            bottom: 2rem;
+            margin-left: 3rem;
+        }
+        .dropdown-content a {
+            width: 100%;
+            font-size: 15px;
+        }
+        /* dropdown*/
+        .dropdown {
+            margin-top: 0px;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            color: rgb(255, 254, 254);
+            min-width: 250px;
+            box-shadow: 0px 8px 16px 0px rgb(218, 112, 12);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: rgb(255, 255, 255);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .container2-header {
+            flex-direction: column;
+        }
+        .aboutUs-logo-Header img {
+            display: none;
+        }
+        .content-header-text p {
+            margin-top: 170px;
+            text-align: center;
+            margin-left: 0rem;
+            margin-left: 5rem;
+            font-size: 16px;
+            line-height: 2;
+        }
+        .content-header-text h3 {
+            top: 160px;
+            font-size: 25px;
+            text-align: center;
+            margin-left: 0rem;
+            margin-top: 100px;
+            left: 10rem;
+        }
+        .content-header-text {
+            position: relative;
+            bottom: 180px;
+            top: 50px;
+            margin-left: 0rem;
+        }
+        /* main / main-container-aboutUs*/
+        #first-main {
+            flex-direction: column;
+        }
+        .main-logo-aboutUs img {
+            width: 100%;
+            margin-bottom: 200px;
+        }
+        .main-content-aboutUs {
+            width: 90%;
+            margin-top: 100px;
+            margin-left: 0rem;
+            font-size: 20px;
+            text-align: center;
+        }
+        .main-content-2-aboutUs {
+            width: 90%;
+            margin-left: 0rem;
+            font-size: 20px;
+            text-align: center;
+            flex-direction: column;
+        }
+        .main-logo2-aboutUs img {
+            margin-bottom: 100px;
+            width: 80%;
+            margin-left: 3rem;
+        }
+        .main-content-aboutUs p {
+            font-size: 16px;
+        }
+        .main-content-aboutUs h3 {
+            font-size: 25px;
+        }
+        .main-content-2-aboutUs p {
+            font-size: 16px;
+        }
+        /* footer */
+        .footer-container {
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer-logo img {
+            width: 100%;
+        }
+        .footer-container2 {
+            align-items: center;
+            justify-content: center;
+        }
+        .footer-container2 article {
+            padding: 20px;
+            position: relative;
+            bottom: 40px;
+            left: 0px;
+            text-align: center;
+        }
+        .category {
+            margin-bottom: 100px;
+        }
+        .rules {
+            margin-bottom: 100px;
+        }
+    }

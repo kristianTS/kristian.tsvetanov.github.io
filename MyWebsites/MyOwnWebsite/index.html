@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KristianWeb - Изработка на уебСите</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/all.min.css">
+    <link rel="stylesheet" href="./Css/indexResponsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section id="header-conteiner">
+            <article class="header-logo">
+                <img src="./Picture/websiteLogo.png" alt="">
+            </article>
+            <a href="#" class="toggle-button">
+
+                <span class="box"></span>
+                <span class="box"></span>
+                <span class="box"></span>
+            </a>
+            <article>
+
+                <nav class="navigation-bar-header">
+                    <ul>
+                        <li><a class="Home-only" href="./AboutUs.html"><i class="fab fa-audible"></i></i>About Us</a></li>
+                        <li><a href="#">Making Websites For You</a></li>
+                        <li><a href="./contactUs.html">Contacts</a></li>
+                        <div class="dropdown">
+                            <li>
+                                <a href="#"> <button class="dropbtn"><i class="fas fa-caret-down"></i>What is this FronT-End</button>
+                                </a>
+                            </li>
+                            <div class="dropdown-content">
+                                <a href="./DistinguishingFrontendFromBackend.html">Distinguishing frontend from backend</a>
+                                <a href="./FriendlyWebDevelopment.html">What makes an SEO-friendly frontend?</a>
+                                <a href="./FrontEnd.html">HTML, CSS, & JavaScript</a>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+            </article>
+        </section>
+
+        <section id="header-content">
+            <p>We love to see the smiles on the faces of our customers.</p>
+            <h1 id="paragraph">The site is your Professional business card.</h1>
+            <input type="button" class="btn-primary" value="Get a greeting" onclick="document.getElementById('paragraph').innerHTML = 'Time flies fast, ride your chance.'">
+        </section>
+    </header>
+
+    <main>
+        <section id="container">
+            <section class="inside-container">
+                <h3>Why you should choose us?</h3>
+                <p>There are many companies in Bulgaria that deal with the preparation of a professional website. A company builds in its own way the style of creating each site and this makes it special. We are here and we are ready to give everything for
+                    our customers to be happy.</p>
+            </section>
+            <section class="container-main-first">
+                <article class="logo-main">
+                    <img src="./Picture/mainPicturefIRST.png" alt="">
+                </article>
+                <section class="content-main">
+                    <article>
+                        <h3>About Me</h3>
+                        <p>My name is Christian Tsvetanov, I am 23 years old and I was born in Sofia. I finished my bachelor's degree at Unibit.</p>
+                        <a href="./AboutUs.html"><span>Go on...<i class="fas fa-arrow-alt-circle-right"></i></span></a>
+                    </article>
+                    <article>
+                        <h3>Front-End</h3>
+                        <p>The main goal of a web designer is to do something that most people fail at, it is about perfection about a website.</p>
+                        <a href="./DistinguishingFrontendFromBackend.html"><span>Go on...<i class="fas fa-arrow-alt-circle-right"></i></span></a>
+                    </article>
+                    <article>
+                        <h3>Want a website?</h3>
+                        <p id="demo">The desire you want to express about your life, with us we can easily make a business card for you or your company, making a perfect website!</p>
+                        <span onclick="myFunc()">Go on...<i class="fas fa-arrow-alt-circle-right"></i></span>
+                    </article>
+                </section>
+            </section>
+        </section>
+
+        <section id="secon-container">
+            <section id="consulting">
+                <h3><span>Get a free consultancy</span> from our expert right now!</h3>
+                <p>Don't wait for anyone, don't miss your chance, act and call us as soon as possible, because time flies and our path to success is long.</p>
+            </section>
+            <div class="container">
+
+                <div class="form-wrap">
+                    <form action="#">
+                        <div class="form-group">
+
+                            <label for="First-name">First Name</label>
+                            <input type="text" id="First-name" name="FirstName" placeholder="i.e Kristian">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="Email" placeholder="i.e Kristian@mai.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Phone">Phone</label>
+                            <input type="tel" placeholder="i.e +359 87 767 6672" id="telephone">
+                        </div>
+                        <input type="submit" value="Get Free Consultancy">
+                    </form>
+                </div>
+
+        </section>
+        <section id="third-main-container">
+            <h3>What exactly is Front-End</h3>
+            <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.</p>
+            <a href="/FrontEnd.html"> <span>Go on...</span></a>
+        </section>
+        <section class="forth-main-container">
+            <article class="fourthmain-article">
+                <img src="./Picture/picture.png" alt="">
+                <h4>Distinguishing frontend from backend</h4>
+                <p>Front end developers build with the user in mind. Front end development is a style of computer programming that focuses on<a href="./DistinguishingFrontendFromBackend.html"><span>...<i class="fas fa-hand-point-right"></i></span></a>
+                </p>
+
+            </article>
+            <article class="five-main-container">
+                <img src="./Picture/pic2.png" alt="">
+                <h4>What makes an SEO-friendly frontend?</h4>
+                <p>You’re browsing the internet using an application called a web browser. That could be Chrome, or Firefox, etc<a href="./FriendlyWebDevelopment.html"><span>...<i class="fas fa-hand-point-right"></i></span></a>
+                </p>
+
+            </article>
+            <article class="six-main-container">
+                <img src="./Picture/pc3.png" alt="">
+                <h4>HTML, CSS, & JavaScript</h4>
+                <p>How Does HTML Work ? The average website includes several different HTML pages. For instance, a home page, an about page, and a contact page would<a href="./FrontEnd.html"><span>...<i class="fas fa-hand-point-right"></i></span></a></p>
+
+
+            </article>
+        </section>
+
+        <section class="finalcontainer">
+            <article class="final-conta">
+                <h3>How did I get more interested in programming?</h3>
+                <p>Many people ask me why I decided to do programming. This is a very interesting question, but I think I'll leave it to action, they will show themselves.</p>
+                <a href="./AboutUs.html"><span>Go on...<i class="fas fa-hand-point-right"></i></span></a>
+
+            </article>
+            <article class="logo-final">
+                <img src="./Picture/pic5.png" alt="">
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-container">
+            <section class="footer-logo">
+                <img src="./Picture/websiteLogo.png" alt="">
+                <section class="footer-container2">
+                    <article>
+                        <a href="#"><i class="fab fa-facebook-f"></i></i></a>
+                    </article>
+                    <article>
+                        <a href="#"><i class="fab fa-instagram"></i></i></a>
+                    </article>
+                    <article>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></i></a>
+                    </article>
+                </section>
+            </section>
+            <section class="category">
+                <article>
+                    <li><a class="Home-only" href="./AboutUs.html"><i class="fab fa-audible"></i></i>About Us</a></li>
+                    <li><a href="#">Making Websites For You</a></li>
+                    <li><a href="./contactUs.html">Contacts</a></li>
+                </article>
+            </section>
+            <section class="rules">
+                <article>
+                    <li><a href="#">Privacy & Policy</a></li>
+                    <li><a href="#">Terms & condition</a></li>
+                    <li><a href="#">Online Payment</a></li>
+                    <li><a href="#">Get free Quote</a></li>
+                    <li><a href="#">High Quality</a></li>
+                </article>
+            </section>
+            <section class="foter-content">
+                <em>
+                    Аз съм Кристиан Цветанов <br>
+                    Искате хубав и професионален сайт<br>
+                    Вие сте на точното място, затова не се бавете<br>
+                    Пратете ми вашите указания и да почваме работа!<br>
+                </em>
+            </section>
+        </section>
+    </footer>
+    <script src="./Javascript/javascript.js"></script>
+    <script src="./Javascript/all.min.js"></script>
+</body>
+
+</html>

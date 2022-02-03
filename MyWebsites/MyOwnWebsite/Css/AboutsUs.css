@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    color: black;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.hero {
+    display: block;
+    box-sizing: border-box;
+    height: 500px;
+    background-color: #18191bad;
+    clip-path: ellipse(63% 100% at 49.61% 0%);
+    background: linear-gradient(rgb(199, 197, 197), rgba(0, 0, 0, 0.741)), url(../Picture/bg1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* aboutUs-navMenu-Header */
+
+header {
+    font-family: 'Montagu Slab', serif;
+}
+
+.aboutUs-header-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutUs-navMenu-Header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutUs-navMenu-Header ul li {
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.aboutUs-navMenu-Header ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.aboutUs-navMenu-Header ul li:hover::after {
+    width: 80%;
+}
+
+.aboutUs-navMenu-Header ul li .Home-only {
+    color: rgb(0, 51, 255);
+    font-weight: 600;
+}
+
+.aboutUs-navMenu-Header ul li a:hover {
+    color: rgba(196, 35, 35, 0.507);
+    transition: 1.5s ease-in-out;
+}
+
+.header-logo img {
+    width: 200px;
+}
+
+
+/* drobdown menu */
+
+.dropbtn {
+    border: none;
+    outline: none;
+    background: rgba(177, 176, 176, 0);
+    color: white;
+    font-size: 17px;
+}
+
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: white;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgb(12, 60, 218);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: orange;
+    transition: 1s ease-in-out;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.toggle-button .box {
+    height: 3px;
+    width: 25px;
+    background: grey;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.toggle-button {
+    display: none;
+}
+
+
+/* aboutUs-logo-Header */
+
+.container2-header {
+    display: flex;
+}
+
+.aboutUs-logo-Header img {
+    margin-left: 20rem;
+    width: 400px;
+    position: relative;
+}
+
+.aboutUs-navMenu-Header ul li::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #ee1b0c82;
+    display: block;
+    margin: auto;
+    transition: 1s ease;
+}
+
+.content-header-text p {
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+    width: 70%;
+    margin-left: 100px;
+}
+
+.content-header-text h3 {
+    position: relative;
+    top: 180px;
+    margin-left: 100px;
+    font-size: 50px;
+    color: rgb(238, 234, 234);
+}
+
+.content-header-text {
+    position: relative;
+    bottom: 200px;
+    top: 1px;
+    margin-left: 100px;
+}
+
+
+/* main / main-container-aboutUs*/
+
+#first-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-logo-aboutUs img {
+    width: 900px;
+}
+
+.main-content-aboutUs {
+    width: 45%;
+    margin-left: 5rem;
+    font-size: 17px;
+    text-align: right;
+}
+
+.main-content-aboutUs p {
+    margin-bottom: 1rem;
+    line-height: 2.3;
+}
+
+.main-content-aboutUs h3 {
+    font-size: 25px;
+    margin-bottom: 3rem;
+}
+
+.main-logo2-aboutUs img {
+    width: 700px;
+}
+
+
+/* footer */
+
+.footer-logo img {
+    width: 400px;
+}
+
+.footer-container2 {
+    display: flex;
+}
+
+.footer-container2 article {
+    padding: 20px;
+    position: relative;
+    bottom: 40px;
+    left: 110px;
+}
+
+.footer-container2 a {
+    display: flex;
+    color: white;
+}
+
+.category article li a {
+    text-decoration: none;
+    color: white;
+}
+
+.category article li {
+    list-style: none;
+    margin: 20px;
+}
+
+.rules article li a {
+    text-decoration: none;
+    color: white;
+}
+
+.rules article li {
+    list-style: none;
+    margin: 20px;
+}
+
+.foter-content {
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    background: linear-gradient(rgb(245, 243, 243), rgba(16, 15, 15, 0.815)), url(../Picture/background3.png);
+    background-position: center;
+    background-size: cover;
+}

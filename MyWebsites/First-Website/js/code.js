@@ -1,7 +1,7 @@
 var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
 
-function myFunction() {
+btn.addEventListener('click', function() {
     if (video.paused) {
         video.play();
         btn.innerHTML = "Pause";
@@ -9,4 +9,4 @@ function myFunction() {
         video.pause();
         btn.innerHTML = "Play";
     }
-}
+})
